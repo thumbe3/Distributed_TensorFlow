@@ -1,0 +1,2 @@
+Simply execute ./run.sh
+You can change the tf flags defined in the python file to change the hyper-parameters like batch_size

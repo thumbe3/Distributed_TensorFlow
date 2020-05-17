@@ -1,0 +1,7 @@
+Run the script
+./run.sh $1
+where $1 is the cluster mode(which can be one of ['single', 'cluster', 'cluster2'])
+
+By default the code will run in cluster2 mode
+
+You can change the tf flags defined in the python file to change the hyper-parameters like batch_size

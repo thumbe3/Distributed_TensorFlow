@@ -1,0 +1,9 @@
+Run the script as ./run.sh $1 $2
+
+$1 is the deploy mode(which can be one of [1, 2, 3]).
+Deploy mode 1 corresponds to using single machine for training. Deploy modes 2, 3 corresponds to using two and three 
+machines respectively for distributed training.
+
+$2 is the batch size.
+
+You can change the tf flags defined in the python file to change other hyper-parameters.
